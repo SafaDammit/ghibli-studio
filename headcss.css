@@ -1,0 +1,140 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Roboto',sans-serif;
+}
+body{
+
+    background:#6f8073;
+    color: #fff;
+    background-attachment: fixed;
+}
+.container{
+    width:100%;
+    height: 100% ;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.164),rgba(0, 0, 0, 0.157)),url(img/headcover.jpg);
+    background-position:center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.logo{
+    width: 50px;
+    cursor: pointer;
+    height: 70px;
+    width: 150px;
+    padding-top:10px;
+    margin-left: -20px;
+    position: fixed;
+}
+.row{
+   display: flex;
+   height: 88%;
+   align-items: center;
+}
+.col1{
+    flex-basis: 50%;
+
+}
+
+txt{
+    position: fixed;
+    margin-top: -150px;
+}
+h1{
+    color: #ffffff;
+    font-size: 40px;
+    margin-left: -40px;
+    margin-top: -300px;
+
+}
+p{
+    color: #fff;
+    font-size: 20px;
+
+}
+
+#text{
+    margin-left: -40px;
+}
+button{
+    width: 180px;
+    color: #364a3d;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 12px 0;
+    background: #ffffffda;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+button:hover{
+    background-color:#84848482 ;
+}
+.cards{
+    flex-basis: 50%;
+    padding: 100px 0;
+
+}
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: top;
+    background-size: cover;
+    transition: 0.5s;
+}
+.card1{
+    background-image: url(img/whisperofheartcard.jpg);
+}
+.card2{
+    background-image: url(img/ponyocard.jpg);
+    background-position: bottom;
+}
+.card3{
+    background-image: url(img/howlcard.jpg);
+}
+.card4{
+    background-image: url(img/spiritedawaycard.jpg);
+}
+.card5{
+    background-image: url(img/kikicard.jpg);
+}
+.card6{
+    background-image: url(img/marniecard.jpg);
+}
+.card7{
+    background-image: url(img/totorocard.jpg);
+}
+.card8{
+    background-image: url(img/arrietycard.jpg);
+    background-position: bottom;
+}
+.card9{
+    background-image: url(img/windcard.jpg);
+}
+.card10{
+    background-image: url(img/mononokecard.jpg);
+}
+.card:hover{
+    transform: translateY(-10px);
+
+}
+.card h5{
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+}
+.card p{
+    text-shadow: 0 0 15px #000;
+    font-size: 8px;
+}

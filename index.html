@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link href="style.css" rel="stylesheet">
+       <title>ghibli studio movies tracker</title>
+       <link rel="icon" href="img/icon.png">
+    </head>
+    <body>
+        <div class="background">
+        <nav>
+            <a href="index.html">
+            <img src="img/pngegg.png" width="200" height="100" class="logo"></a>
+            <div>
+                <button id="signInButton">Sing In</button>
+            </div>
+
+            <div class="overlay" id="overlay">
+                <div class="popup">
+                    <span class="close" onclick="closePopup()">×</span>
+                    <h2>Sign In</h2>
+                    <form class="singin" action="header.html">
+                        <input type="text" placeholder="Username"><br>
+                        <input type="password" placeholder="Password"><br>
+                        <button type="submit" >Sign In</button>
+                    </form>
+                </div>
+            </div> 
+            <script>
+                var overlay = document.getElementById('overlay');
+                var signInButton = document.getElementById('signInButton');
+                
+                signInButton.addEventListener('click', function() {
+                    overlay.style.display = 'flex';
+                });
+                
+                function closePopup() {
+                    overlay.style.display = 'none';
+                }
+            </script>
+
+
+        </nav>
+        <div class="header-content">
+            <h2>Welcome to the World of Ghibli</h2>
+            <h3>Enter the Magic of Ghibli.</h3>
+            <p>Join Us on an Adventure Beyond Imagination </p>
+            <form class="email-singup" action="header.html">
+                <input type="email" placeholder="Email adress"  >
+                <button type="submit">Get started</button>
+            </form>
+        </div>
+        </div>
+            <div class="row">
+               
+             <div class="Enjoy">
+             <h2>Explore the Ghibli Realm</h2>
+            <p>From Spirited Away to Howl's Moving Castle,<br> Let the Magic Begin.</p>
+          </div>
+          <div class="vid1">
+            <a href="header.html">
+                 <video autoplay muted loop src="img/totoro.mp4" width="500"></video>
+               </a></div>
+         </div>
+    </body>
+</html>

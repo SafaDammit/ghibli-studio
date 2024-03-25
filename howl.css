@@ -1,0 +1,311 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Cairo',sans-serif;
+    box-sizing: border-box;
+    scroll-behavior:smooth ;
+}
+body{
+
+    background:#181818;
+    color: #fff;
+}
+.content{ 
+    width: 100%;
+    height: 100vh;
+    background-image : url(img/howlmovingcastle.png);
+    background-size: cover;
+    background-position: center;
+    padding: 20px 8%;
+    position: relative;
+}
+.shade{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 65%;
+    height: 100%;
+    background:linear-gradient(90deg, #181818 10%, hsla(0, 0%, 9%, .98) 20%, hsla(0, 0%, 9%, .97) 25%, hsla(0, 0%, 9%, .95) 35%, hsla(0, 0%, 9%, .94) 40%, hsla(0, 0%, 9%, .92) 45%, hsla(0, 0%, 9%, .9) 50%, hsla(0, 0%, 9%, .87) 55%, hsla(0, 0%, 9%, .82) 60%, hsla(0, 0%, 9%, .75) 65%, hsla(0, 0%, 9%, .63) 70%, hsla(0, 0%, 9%, .45) 75%, hsla(0, 0%, 9%, .27) 80%, hsla(0, 0%, 9%, .15) 85%, hsla(0, 0%, 9%, .08) 90%, hsla(0, 0%, 9%, .03) 95%, hsla(0, 0%, 9%, 0));
+
+}
+.header{
+    background: #0000003d;
+    display: flex;
+    margin-top:-20px ;
+    margin-left: -90px;
+    margin-right: -90px;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+ }
+ .hleft{
+    cursor: pointer;
+ }
+.header .hcenter span{
+    font-size: 30px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.hcenter span:hover{
+    background-color: #181818;
+}
+.hright{
+ margin-right: 40px;
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+}
+.hright button{
+    background: none;
+    border: none;
+    padding: 15px;
+ text-align: center;
+ font-size: 15px;
+ font-weight: 900px;
+ width: 200px;
+ color: #fff;
+ border-radius: 35px;
+ border: solid #328860;
+ 
+ cursor: pointer;
+ transition: 0.4s;
+}
+.hright button:hover{
+    background-color: #181818;
+    color: #7c6868;
+}
+.logo{
+ padding: 10px 10px;
+ position: absolute;
+ margin-top: 15px;
+ margin-left: -40px;
+
+}
+.center{ 
+padding: 250px 0;
+position: absolute;
+margin-left: -40px;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+}
+.center h1{
+    font-size: 26px;
+    font-weight: 500px;
+    line-height: 40px;
+
+}
+.center p span{
+   color: #a3a3a3;
+   line-height: 50px;
+}
+footer {
+    background-color: #181818a5;
+    padding: 8px;
+    box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1); /* Adjust the values as needed */
+    position: fixed;
+    bottom: 0;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+footer p{
+    font-size: large;
+    margin-left: 100px;
+}
+footer .watch{
+    background-color: #328860;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.4s;
+    margin-right: 40px;
+    width: 20%;
+
+}
+.watch:hover{
+    background-color: #181818;
+
+}
+.cards{
+    flex-basis: 50%;
+    padding: 100px 0;
+
+}
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: top;
+    background-size: cover;
+    transition: 0.5s;
+}
+.card1{
+    background-image: url(img/whisperofheartcard.jpg);
+}
+.card2{
+    background-image: url(img/ponyocard.jpg);
+    background-position: bottom;
+}
+.card3{
+    background-image: url(img/howlcard.jpg);
+}
+.card3{
+    background-image: url(img/howlcard.jpg);
+}
+.card1{
+    background-image: url(img/whisperofheartcard.jpg);
+}
+.card2{
+    background-image: url(img/ponyocard.jpg);
+    background-position: bottom;
+}
+.card3{
+    background-image: url(img/howlcard.jpg);
+}
+.card3{
+    background-image: url(img/howlcard.jpg);
+}
+.card1{
+    background-image: url(img/whisperofheartcard.jpg);
+}
+.card2{
+    background-image: url(img/ponyocard.jpg);
+    background-position: bottom;
+}
+.card3{
+    background-image: url(img/howlcard.jpg);
+}
+.card4{
+    background-image: url(img/spiritedawaycard.jpg);
+}
+.card5{
+    background-image: url(img/kikicard.jpg);
+}
+.card6{
+    background-image: url(img/marniecard.jpg);
+}
+.card7{
+    background-image: url(img/totorocard.jpg);
+}
+.card8{
+    background-image: url(img/arrietycard.jpg);
+    background-position: bottom;
+}
+.card9{
+    background-image: url(img/windcard.jpg);
+}
+.card10{
+    background-image: url(img/mononokecard.jpg);
+}
+.card:hover{
+    transform: translateY(-10px);
+
+}
+.card h5{
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+}
+.card p{
+    text-shadow: 0 0 15px #000;
+    font-size: 8px;
+}
+.cards{
+    flex-basis: 50%;
+    padding: 100px 0;
+
+}
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: top;
+    background-size: cover;
+    transition: 0.5s;
+}
+.card1{
+    background-image: url(img/whisperofheartcard.jpg);
+}
+.card2{
+    background-image: url(img/ponyocard.jpg);
+    background-position: bottom;
+}
+.card3{
+    background-image: url(img/howlcard.jpg);
+}
+.card3{
+    background-image: url(img/howlcard.jpg);
+}
+.card1{
+    background-image: url(img/whisperofheartcard.jpg);
+}
+.card2{
+    background-image: url(img/ponyocard.jpg);
+    background-position: bottom;
+}
+.card3{
+    background-image: url(img/howlcard.jpg);
+}
+.card3{
+    background-image: url(img/howlcard.jpg);
+}
+.card1{
+    background-image: url(img/whisperofheartcard.jpg);
+}
+.card2{
+    background-image: url(img/ponyocard.jpg);
+    background-position: bottom;
+}
+.card3{
+    background-image: url(img/howlcard.jpg);
+}
+.card4{
+    background-image: url(img/spiritedawaycard.jpg);
+}
+.card5{
+    background-image: url(img/kikicard.jpg);
+}
+.card6{
+    background-image: url(img/marniecard.jpg);
+}
+.card7{
+    background-image: url(img/totorocard.jpg);
+}
+.card8{
+    background-image: url(img/arrietycard.jpg);
+    background-position: bottom;
+}
+.card9{
+    background-image: url(img/windcard.jpg);
+}
+.card10{
+    background-image: url(img/mononokecard.jpg);
+}
+.card:hover{
+    transform: translateY(-10px);
+
+}
+.card h5{
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+}
+.card p{
+    text-shadow: 0 0 15px #000;
+    font-size: 8px;
+}
